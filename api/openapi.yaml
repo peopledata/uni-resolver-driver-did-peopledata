@@ -3,7 +3,7 @@ info:
   title: Universal Resolver Driver
   description: Universal Resolver Driver
   contact:
-    email: markus@danubetech.com
+    email: jerry.zhang@peopledata.org.cn
   version: 1.0.0
 servers:
 - url: https://virtserver.swaggerhub.com/universal-resolver/universal-resolver-driver/1.0.0

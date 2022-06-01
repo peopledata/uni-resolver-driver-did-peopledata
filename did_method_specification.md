@@ -1,4 +1,4 @@
-# Specification for the did:example DID method
+# Specification for the did:peopledata DID method
 
 ... TODO ...
 

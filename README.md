@@ -1,8 +1,8 @@
 ![DIF Logo](https://raw.githubusercontent.com/decentralized-identity/universal-resolver/master/docs/logo-dif.png)
 
-# Universal Resolver Driver: example
+# Universal Resolver Driver for PeopleData
 
-This is an example [Universal Resolver](https://github.com/decentralized-identity/universal-resolver/) driver for fictional **did:example** identifiers.
+This is an [Universal Resolver](https://github.com/decentralized-identity/universal-resolver/) driver for PeopleData **did:peopledata** identifiers.
 
 ## Specifications
 
@@ -11,15 +11,15 @@ This is an example [Universal Resolver](https://github.com/decentralized-identit
 ## Example DIDs
 
 ```
-did:example:0000000000123456
-did:example:0000000000456789
+did:peopledata:0000000000123456
+did:peopledata:0000000000456789
 ```
 
 ## Build and Run (Docker)
 
 ```
-docker build -f ./docker/Dockerfile . -t exampleorg/uni-resolver-driver-did-example
-docker run -p 8080:8080 exampleorg/uni-resolver-driver-did-example
+docker build -f ./docker/Dockerfile . -t peopledata.org.cn/uni-resolver-driver-did-example
+docker run -p 8080:8080 peopledata.org.cn/uni-resolver-driver-did-example
 curl -X GET http://localhost:8080/1.0/identifiers/did:example:0000000000123456
 ```
 
@@ -33,9 +33,9 @@ npm start
 
 The driver recognizes the following environment variables:
 
-### `uniresolver_driver_did_example_exampleSetting`
+### `uniresolver_driver_did_peopledata_Setting`
 
- * An example setting for the driver.
+ * A setting for the driver.
  * Default value: (empty string)
 
 ## Driver Metadata

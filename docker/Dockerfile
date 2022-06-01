@@ -1,9 +1,9 @@
-# Dockerfile for exampleorg/uni-resolver-driver-did-example
+# Dockerfile for peopledata.org.cn/uni-resolver-driver-did-peopledata
 
 FROM node:10
-MAINTAINER Markus Sabadello <markus@danubetech.com>
+MAINTAINER jerry zhang<jerry.zhang.bill@gmail.com>
 
-# build uni-resolver-driver-did-example
+# build uni-resolver-driver-did-peopledata
 
 WORKDIR /usr/src/app
 COPY package.json ./
@@ -12,10 +12,10 @@ COPY . .
 
 # variables
 
-ENV uniresolver_driver_did_example_exampleSetting=exampleSetting
+ENV uniresolver_driver_did_peopledata_Setting= Setting
 
 # done
 
-EXPOSE 8080
+EXPOSE 8088
 
 CMD [ "node", "index.js" ]
