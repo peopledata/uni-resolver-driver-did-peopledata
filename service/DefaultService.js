@@ -29,6 +29,15 @@ exports.resolve = function(identifier,accept) {
         "publicKeyBase58": "EKmHWjiDDeMhEBs75uv86dC89zZ6yTTxEAHkYroJ7wZP"
       } ]
     };
+    examples['did:peopledata:1234'] = {
+      "@context": "https://www.w3.org/2019/did/v1",
+      "id" : "did:peopledata:1234",
+      "publicKey" : [ {
+        "id" : "did:peopledata:1234#key1",
+        "type" : "Ed25519VerificationKey2019",
+        "publicKeyBase58" : "H3C2AVvLMv6gmMsdduVAjZpfkcJCwDwnZn6z3wXmqPs"
+      } ]
+    };
     var found = examples[identifier];
     if (found) {
       resolve(found);

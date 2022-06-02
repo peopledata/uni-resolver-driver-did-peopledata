@@ -12,10 +12,10 @@ COPY . .
 
 # variables
 
-ENV uniresolver_driver_did_peopledata_Setting= Setting
+ENV uniresolver_driver_did_peopledata_Setting=Setting
 
 # done
 
-EXPOSE 8088
+EXPOSE 8080
 
 CMD [ "node", "index.js" ]
